@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* IMAGEM D BANDA */
+.cor{
+    display: inline-block;
+    background: #000;
+    width: 100%;
+    height: 144%;
+    opacity: 0.5;
+    position: absolute;
+    
+}
+.banda {
+
+    /* display: inline-block; */
+    position:absolute;
+    top: 50%;
+    right: 45%;
+    font-size: 40px;
+    
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px; 
+    color: white;
+    text-align: center;
+
+    
+  
+}
+/* descrição da banda */
+
+.box1{
+    padding: 50px;
+    text-align: justify;
+}
+.tituloDescricao{
+width: 336px;
+height: 58px;
+left: 37px;
+top: 833px;
+
+font-family: 'Ubuntu', sans-serif;
+
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 58px;
+
+color: #000000;
+}
+
+.descricao {
+    padding-top: 20px;
+   margin: 10px;
+
+    font-family: 'Nunito', sans-serif;
+    
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 38px;
+    
+    color: #000000;   
+}
+/* box2 */
+/* .box2{
+    padding: 50px;
+    margin: 10px;
+}
+.musicas{
+  
+width: 426px;
+height: 58px;
+left: 20px;
+top: 1358px;
+
+    font-family: 'Ubuntu', sans-serif;
+
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 58px;
+
+color: #000000;
+}
+
+.music1{
+    
+        display: flex; 
+        justify-content: center;
+        padding-left: 30px;
+}
+audio{
+    width: 50%;
+    margin-top: 65px;
+}
+
+  .img1{
+    margin-top: 50px;
+    width: 108px;
+    height: 104px;
+    border-radius: 50%;
+  }
+  .img2{
+    
+    margin-top: 50px;
+    width: 108px;
+    height: 104px;
+    margin-left: 10px;
+    border-radius: 50%;
+  }
+  
+  .music2{
+    display: flex; 
+justify-content: center;
+    padding-left: 30px;
+  }
+  .music2 img{
+    
+ margin-top: 30px;
+    width: 108px;
+    height: 104px;
+    margin-left: 10px;
+    border-radius: 50%;
+  }
+  */
+ 

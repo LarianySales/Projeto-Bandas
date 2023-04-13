@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient( to bottom, #cc4b5f,#923856, #522546, #311D3F ); 
+    
+}
+main{
+    margin-top: 30px;
+}
+nav{
+   background-color: rgba(255, 218, 209, 0.979);
+    padding: 10px;
+}
+nav h1{
+    padding: 50px;
+    /* width: 339px; */
+/* height: 48px; */
+left: 587px;
+/* top: 46px; */
+
+font-family: 'Inconsolata', monospace;
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 48px;
+text-align: center;
+border: 5px dotted #fff;
+
+}
+/* nav img{
+    
+    padding: 9px;
+    margin-bottom: 50px;
+    border: 3px dotted #000;
+} */
+
+section{
+    gap: 60px;
+}
+.banda1 {
+    padding: 50px;
+    border: 5px double #b5aee9 ;
+    /* background: #ca9d9d7a ; */
+    /* border-width: 5px; */
+}
+
+.container {
+    display: inline-block;
+    position: relative;
+}
+
+.container a {
+    position: absolute;
+    top: 695px;
+    right: 45%;
+    font-size: 24px;
+    color: white;
+    background-color: rgba(41, 41, 43, 0.445);
+    border-radius: 5px;
+    padding: 5px;
+    text-shadow: black;
+    text-decoration: none;
+}
+
+
+.container .band1 {
+    position: absolute;
+    top: 280px;
+    right: 52%;
+    font-size: 24px;
+    color: white;
+    text-shadow: 0px 0px 5px black;
+}
+
+.container .aluno1 {
+    position: absolute;
+    top: 334px;
+    right: 52%;
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    color: white;
+    background-color: rgba(41, 41, 43, 0.445);
+    border-radius: 5px;
+
+    text-shadow: 0px 0px 5px black;
+}
+
+.aluno {
+    top: 280px;
+    position: absolute;
+    width: 103px;
+    height: 103px;
+    right: 80%;
+    border-radius: 50%;
+}
+
+.container-2{
+    display: inline-block;
+    position: relative;
+}
+.banda2 {
+    padding: 50px;
+    border: 5px double #d7bbe6 ;
+    /* background: #6c4480; */
+}
+
+.banda2{
+    padding: 50px;
+    display: inline-block;
+    align-content: end;
+}
+.aluno2{
+    top: 280px;
+    width: 103px;
+    height: 103px;
+    border-radius: 50%;
+    position: absolute;
+    right: 61%;
+    
+}
+.container-2 a{
+    position: absolute;
+    top: 280px;
+    right: 5%;
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    color: white;
+    background-color: rgba(41, 41, 43, 0.445);
+    border-radius: 5px;
+    padding: 5px;
+    text-shadow: black;
+    text-decoration: none;
+
+    
+}
+.band2{
+    position: absolute;
+    
+    right: 40%;
+    font-size: 24px;
+    color: white;
+    text-shadow: 0px 0px 5px black;
+}
+.alun2{
+    position: absolute;
+    margin-top: 57px;
+    right: 33%;
+    font-size: 24px;
+    color: white;
+    text-shadow: 0px 0px 5px black;
+}
+/* banda3 */
+.container-3{
+    display: inline-block;
+    position: relative;
+
+}
+.banda3{
+    margin-top: 50px;
+    display: inline-block;
+    justify-content: end;
+    padding: 50px;
+    padding-left: 65px;
+    border: 5px double #d7bbe6 ;
+
+}
+.aluno3{
+    top: 280px;
+    position: absolute;
+    width: 103px;
+    height: 103px;
+    border-radius: 50px;
+    right: 79%;
+}
+.container-3 a{
+    position: absolute;
+    top: 295px;
+    right: 52%;
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    color: white;
+    text-shadow: 0px 0px 5px black;
+    border-radius: 5px;
+    text-decoration: none;
+
+    background-color: rgba(41, 41, 43, 0.445);
+}
+.alun3{
+    position: absolute;
+    margin-top: 51px;
+    right: 45%;
+    font-size: 24px;
+    color: white;
+    text-shadow: 0px 0px 5px black;
+}
+/* banda4 */
+.banda4{
+    margin-top: 50px;
+    border: 5px double #d7bbe6 ;
+
+}
+.container-4{
+    display: inline-block;
+    position: relative;
+padding: 50px;
+
+}
+.aluno4{
+    top: 334px;
+    position: absolute;
+    width: 103px;
+    height: 103px;
+    border-radius: 50%;
+    right: 77%;
+}
+.container-4 a{
+    position: absolute;
+    top: 345px;
+    right: 52%;
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    color: white;
+    text-shadow: 0px 0px 5px black;
+    border-radius: 5px;
+    text-decoration: none;
+
+    background-color: rgba(41, 41, 43, 0.445);
+}
+.alun4{
+    position: absolute;
+    margin-top: 51px;
+    right: 45%;
+    font-size: 24px;
+    color: white;
+    text-shadow: 0px 0px 5px black;  
+}
+@media screen and(max-widt:320px){
+    nav{
+        width: 320px;
+     
+    }
+}
