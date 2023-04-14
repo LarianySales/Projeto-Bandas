@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: inline-block;
+    background:#FEF2F4;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.banda{
+    display: inline-block;
+    top: 50%;
+    right: 500px;
+    font-size: 30px;
+}
+
+.texto1{
+    padding: 10px;
+    font-size: 20px;
+    text-align: justify;
+    font-family: 'inter', sans-serif;
+}
+
+.p{
+    background: #FEF2F4;
+}
+
+.informacao{
+    font-size: 40px;
+    text-align: center;
+    line-height: 58px;
+    font-style: normal;
+    color: #000;
+
+    background: #FEF2F4;
+} 
+
+.box1{
+    text-align: left;
+    font-size: 2rem;
+    padding: 1%;
+}
+
+.title{
+    background: #B9E9FC;
+
+    font-size: 2rem;
+    text-align: center;
+}
+
+.musica{
+    background: #B9E9FC;
+    gap: 0.5;
+}
+
+.musicas{
+    background: #B9E9FC;
+
+}
+
+.video{
+    display: flex;
+    justify-content: space-around;
+         /* padding: 20px; */
+
+     margin-left: 10px;
+    
+}
+

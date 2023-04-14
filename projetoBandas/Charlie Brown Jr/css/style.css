@@ -1,0 +1,69 @@
+*{
+    font-family: 'Inter';
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main{
+    width: 760px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section{
+    width: 100%;
+}
+.foto-charlie{
+    width: 100%;
+    height: 40rem;
+}
+.titulo{
+    font-weight: 700;
+    font-size: 24px;
+    width: 90%;
+}
+.sobre{
+    font-size: 20px;
+    width: 100%;
+    text-align: justify;
+}
+
+.musicas,.clipes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.musica{
+    width: 49%;
+    height: 50px;
+    background-color: #BCB9B9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.imagemRedonda{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.interacao{
+    display: flex;
+    gap: 15px;
+    margin-right: 5px;
+}
+.clipe{
+    width: 49%;
+    height: 200px;
+}
+@media screen and (max-width: 770px) {
+    .main, .musica, .clipe{
+        width: 95vw;
+    }
+    .foto-charlie{
+        height: 30vh;
+    }
+}

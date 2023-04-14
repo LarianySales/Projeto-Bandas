@@ -36,19 +36,19 @@ nav h1{
 
     display: inline-block;
     position: absolute;
-    top: 50%;
-    right: 500px;
-    font-size: 40px;
+    top: 900px;
+    right: 800px;
+    font-size: 80px;
     
 
 
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 48px;
+    font-size: 80px;
     line-height: 58px; 
     color: white;
-    text-align: center;
+    /* text-align: center; */
 
     
   
@@ -192,14 +192,26 @@ line-height: 58px;
 color: #000000;
   }
 
-  @media only screen and(max-width:320px){
+  /* @media only screen and(max-width:320px){
     body{
         width: 100%;
-        display: flexbox;
-        justify-content: center;
-        align-items: center;
-        margin: 0;
     }
-  }
+    .banda{
+      display: inline-block;
+      position: absolute;
+      top: 900px;
+      right: 500px;
+      font-size: 40px;
+      
+  
+  
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 40px;
+      line-height: 58px; 
+      color: white;
+    }
+  } */
 
   
